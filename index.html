@@ -348,24 +348,29 @@
                   Contact Us
                 </h2>
               </div>
+              <!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="Site Name">
+		<input type="hidden" name="admin_email" value="holovlad@yandex.ru">
+		<input type="hidden" name="form_subject" value="Form Subject">
+		<!-- END Hidden Required Fields -->
               <form action="">
                 <div class="contact_form-container">
                   <div>
                     <div>
-                      <input type="text" placeholder="Name">
+                      <input name="name" type="text" placeholder="Name">
                     </div>
                     <div>
-                      <input type="email" placeholder="Email">
+                      <input name="email" type="email" placeholder="Email">
                     </div>
                     <div>
-                      <input type="text" placeholder="Phone Number">
+                      <input name="phone" type="text" placeholder="Phone Number">
                     </div>
                     <div class="mt-5">
-                      <input type="text" placeholder="Message">
+                      <input name="Message" type="text" placeholder="Message">
                     </div>
                     <div class="mt-5">
                       <button type="submit">
-                        send
+                        Отправить
                       </button>
                     </div>
                   </div>
@@ -481,7 +486,7 @@
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
  
 </body>
 
